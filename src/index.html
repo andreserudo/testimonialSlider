@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <article>
+    <div class="testimonial">
+      <p class="description" id="description"></p>
+      <div class="author">
+        <p class="name" id="name"></p>
+        <p class="job" id="job"></p>
+      </div>
+    </div>
+    <div class="profile">
+      <img src="" alt="" id="authorImage"> 
+      <div class="buttons">
+        <ul>
+          <li class="prev" onclick="btnClick()">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18"><path fill="none" stroke="#8585AC" stroke-width="3" d="M11 1L3 9l8 8"/></svg>          
+            </a>
+          </li>
+          <li class="next" onclick="btnClick()">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18"><path fill="none" stroke="#8585AC" stroke-width="3" d="M2 1l8 8-8 8"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/andreserudo" target="_blank">André Serudo</a>.
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
