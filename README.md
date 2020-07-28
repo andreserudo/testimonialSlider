@@ -6,7 +6,7 @@
 
 This is my solution to the Article Preview component challenge for Frontend Mentor.
 
-You can check this repository deployed [here]() with Vercel.
+You can check this repository deployed [here](https://testimonial-slider-serudo.vercel.app/) with Vercel.
 
 To know more about the challenge please read more details in the next section.
 
